@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+.topbar {
+    background-color: rgb(21, 21, 21);
+    color: rgb(156, 156, 156);
+}
+
+.topbar::before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.topbar-item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px 8px 10px 8px;
+}
+
+.small {
+    font-size: 14pt;
+}
+
+.medium {
+    font-size: 23pt;
+}
+
+.big {
+    font-size: 30pt;
+}
